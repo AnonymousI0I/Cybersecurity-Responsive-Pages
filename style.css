@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+  }
+  
+html {
+    height: 150%;
+    background-image: url(https://svam.com/wp-content/uploads/2021/11/845-%C3%97-434px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  .wrapper {
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000E8F;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 8px;
+    z-index: 2;
+  }
+  
+  h1,h2,h3,h4,h5,h6, p {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  header {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border: 3px solid #000366;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 2em;
+    padding-top: 10px;
+  }
+  
+  article {
+    width: 350px;
+    height: 250px;
+    background-color: #3238B8;
+    border: 5px solid #000366;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+  
+  footer {
+    width: 100%;
+    height: 50px;
+    color:white;
+    background-color: #000E8F;
+    position: fixed;
+    bottom: 0px;
+  }
+  
+    @media screen and (max-width: 945px) { 
+      .wrapper { 
+        height: auto; 
+        flex-direction: column; 
+      }
+      .articles {  
+        flex-direction: column; 
+      } 
+      article { 
+        height: auto; 
+        width: 100%; 
+      } 
+      h1 { 
+        font-size: 1.2em; 
+      } 
+    } 
